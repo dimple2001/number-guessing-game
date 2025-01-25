@@ -1,1 +1,31 @@
-pygame==2.1.2 
+
+Software Requirements:
+
+Python 3: The code is written in Python and requires Python 3 to be installed on the laptop. You can check if Python 3 is installed by opening a terminal or command prompt and typing python3 --version. If Python 3 is not installed, it can be downloaded for free from https://www.python.org/downloads/windows/
+
+tkinter library: The code uses the tkinter library, which is a Python library for creating graphical user interfaces (GUIs). In most cases, tkinter comes pre-installed with Python 3. However, if it's not installed, you can install it using the following command in your terminal or command prompt:
+
+
+Bash
+
+pip install tkinter
+
+
+
+Hardware Requirements:
+
+Processor: The code doesn't require a high-performance processor. A basic modern laptop processor will be sufficient to run the game smoothly.
+
+Memory (RAM): The code's memory requirements are minimal. A few MB of RAM is enough to run the game.
+
+Storage: The code itself is a small text file and won't take up much storage space.
+
+Operating System: The code should run on most popular operating systems that support Python 3, including Windows, macOS, and Linux.
+
+Additional Considerations:
+
+Permissions: No special permissions are required to run the code.
+
+Internet Connection: An internet connection is not required to run the game itself. However, an internet connection might be helpful if you need to download Python or the tkinter library.
+
+In summary, the requirements to run this Python Number Guessing Game on a laptop are very minimal. With Python 3 and the tkinter library installed (if not pre-installed), the game should run on most modern laptops.
