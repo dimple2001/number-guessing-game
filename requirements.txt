@@ -11,7 +11,6 @@ Bash
 pip install tkinter
 
 
-
 Hardware Requirements:
 
 Processor: The code doesn't require a high-performance processor. A basic modern laptop processor will be sufficient to run the game smoothly.
