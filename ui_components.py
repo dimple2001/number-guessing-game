@@ -15,3 +15,10 @@ def create_entry(root):
     entry = ttk.Entry(root, font=("Arial", 14))
     entry.pack(pady=10)
     return entry
+
+def create_entry(root):
+    entry = ttk.Entry(root, font=("Arial", 14))
+    entry.pack(pady=10)
+    return entry
+
+
