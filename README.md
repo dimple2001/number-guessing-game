@@ -1,4 +1,4 @@
-Random Number Guessing
+# Random Number Guessing
 
 Overview
 Random Number Guessing is a Python-based GUI application that brings together multiple mini-games in one place. Built using Tkinter, it currently features:
@@ -8,7 +8,7 @@ This interactive game collection provides a fun and engaging experience while de
 
 --------------------------------------------------
 
-Features
+## Features
 
 Number Guessing Game
 • Customizable Range: Users set a minimum and maximum number for the guessing range.
@@ -26,7 +26,7 @@ Spin the Wheel
 
 --------------------------------------------------
 
-How to Play
+## How to Play
 
 Number Guessing Game
 1. Select the "Play Number Guessing Game" option on the home screen.
@@ -45,13 +45,13 @@ Spin the Wheel
 
 --------------------------------------------------
 
-Requirements
+### Requirements
 • Python 3.x
 • Tkinter (bundled with Python)
 
 --------------------------------------------------
 
-Installation and Running the Game
+### Installation and Running the Game
 
 1. Ensure Python 3.x is installed on your system.
 2. Clone or download this repository:
@@ -62,7 +62,7 @@ Installation and Running the Game
 
 --------------------------------------------------
 
-Project Structure
+### Project Structure
 number-guessing-game/
 │-- main.py               # Main application file
 │-- number_guessing_game.py  # Number Guessing Game logic
@@ -72,7 +72,7 @@ number-guessing-game/
 
 --------------------------------------------------
 
-How It Works
+### How It Works
 
 Core Functionalities
 • Main: Handles the main menu and game navigation.
