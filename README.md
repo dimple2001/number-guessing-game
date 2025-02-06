@@ -1,73 +1,81 @@
-# Number Guessing Game
+Random Number Guessing
 
-## Overview
+Overview
+Random Number Guessing is a Python-based GUI application that brings together multiple mini-games in one place. Built using Tkinter, it currently features:
+• Number Guessing Game: Guess the randomly generated number within a specified range.
+• Spin the Wheel: Predict whether the next spun number will be higher or lower.
+This interactive game collection provides a fun and engaging experience while demonstrating Python's GUI capabilities.
 
-The **Number Guessing Game** is an interactive and fun GUI-based game built with Python's Tkinter library. Players attempt to guess a randomly generated number based on the selected difficulty level, with instant feedback and best score tracking.
+--------------------------------------------------
 
-## Features
+Features
 
-- **Three Difficulty Levels:**
-  - Easy (1-50)
-  - Medium (1-100)
-  - Hard (1-200)
-- **User-Friendly Interface:** Simple and intuitive design for all players.
-- **Real-Time Feedback:** Instant hints if your guess is too low, too high, or correct.
-- **Best Score Tracking:** Records the fewest attempts for each session.
-- **Restart Anytime:** Start a new game with one click.
+Number Guessing Game
+• Customizable Range: Users set a minimum and maximum number for the guessing range.
+• Real-Time Feedback: Hints help guide players toward the correct number.
+• Limited Attempts: Players have a set number of attempts to guess correctly.
+• Restart and Home Options: Players can restart or return to the home screen at any time.
+• Dynamic Difficulty Adjustment: The game dynamically sets the number of allowed attempts based on the selected range.
 
-## How to Play
+Spin the Wheel
+• Random Number Generation: Each spin produces a new random number between 1 and 100.
+• Higher or Lower Guessing: Players predict if the next spin will be higher or lower than the previous number.
+• Streak Counter: Tracks the player's consecutive correct guesses.
+• User-Friendly Interface: Clear labels and buttons enhance usability.
+• Instant Feedback: Displays results and updates streak count in real-time.
 
-1. **Launch the game**: Run the script to open the game window.
-2. **Choose a difficulty**: Select Easy, Medium, or Hard.
-3. **Make a guess**: Enter a number and click **Check**.
-   - Feedback will guide you:
-     - "Too Low!"
-     - "Too High!"
-     - "Correct!"
-4. **Win the game**: See your total attempts and compare it with your best score.
-5. **Restart**: Play again by clicking the Restart button.
+--------------------------------------------------
 
-## Requirements
+How to Play
 
-- Python 3.x
-- Tkinter (bundled with Python)
+Number Guessing Game
+1. Select the "Play Number Guessing Game" option on the home screen.
+2. Enter a minimum and maximum number to define the guessing range.
+3. Enter your guess and click "Check."
+4. Receive feedback and keep guessing until you succeed or run out of attempts.
+5. Restart or return to the home screen at any time.
 
-## Installation
+Spin the Wheel
+1. Select the "Play Spin the Wheel Game" option on the home screen.
+2. View the current spun number.
+3. Predict if the next number will be higher or lower.
+4. Enter "higher" or "lower" and submit your guess.
+5. Try to build the longest correct streak!
+6. Restart or return to the home screen at any time.
 
-1. Ensure Python 3.x is installed.
-2. Download or clone this repository.
-3. Navigate to the script folder.
-4. Run the script:
-   ```bash
-   python number_guessing_game.py
-   ```
+--------------------------------------------------
 
-## How It Works
+Requirements
+• Python 3.x
+• Tkinter (bundled with Python)
 
-The game uses the **`NumberGuessingGame`**** class**, which handles:
+--------------------------------------------------
 
-- Initializing the game window and variables.
-- Displaying start and game screens.
-- Tracking attempts and providing feedback.
-- Restarting the game while retaining the best score.
+Installation and Running the Game
 
-### Key Functions
+1. Ensure Python 3.x is installed on your system.
+2. Clone or download this repository:
+   git clone https://github.com/dimple2001/number-guessing-game
+   cd number-guessing-game
+3. Run the game:
+   python main.py
 
-- `create_start_screen`: Displays the welcome screen and difficulty options.
-- `start_game`: Sets up the game for the chosen difficulty.
-- `create_game_screen`: Shows the main guessing interface.
-- `check_guess`: Validates guesses and updates feedback.
-- `end_game`: Handles the win state and updates the best score.
+--------------------------------------------------
 
-## Example Usage
+Project Structure
+number-guessing-game/
+│-- main.py               # Main application file
+│-- number_guessing_game.py  # Number Guessing Game logic
+│-- spin_the_wheel.py        # Spin the Wheel Game logic
+│-- ui_components.py         # UI helper functions
+│-- README.md                # Project documentation
 
-Run the following code to start the game:
+--------------------------------------------------
 
-```python
-if __name__ == "__main__":
-    root = tk.Tk()
-    game = NumberGuessingGame(root)
-    root.mainloop()
-```
+How It Works
 
-##
+Core Functionalities
+• Main: Handles the main menu and game navigation.
+• NumberGuessingGame: Manages number input, feedback, and attempts.
+• SpinTheWheel: Controls spin generation, guessing, and streak tracking.
+• ui_components: Provides reusable UI elements like buttons, labels, and entry fields.
